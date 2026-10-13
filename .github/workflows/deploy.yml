@@ -1,6 +1,9 @@
 name: Publish approved shop
 # Deliberately manual: do not publish this design study before approval.
 on:
+  push:
+    branches: [main]
+  workflow_dispatch:
   workflow_dispatch:
     inputs:
       design_approved:

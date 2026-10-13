@@ -4,7 +4,6 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-  workflow_dispatch:
     inputs:
       design_approved:
         description: Desktop and mobile mockups have been approved
